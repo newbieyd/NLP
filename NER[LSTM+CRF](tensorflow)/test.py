@@ -141,7 +141,7 @@ def test(sentences):
 def main():
     sentences = list()
     sentences.append("这是一个例子！")
-    results = order_test(sentences)
+    results = test(sentences)
     print(results)
 
 if __name__ == "__main__":
